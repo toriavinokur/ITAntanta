@@ -9,7 +9,7 @@ imagerect1 = slide1.get_rect()
 imagerect2 = slide2.get_rect()
 imagerect3 = slide3.get_rect()
 
-screen = pygame.display.set_mode((1920, 1080))
+screen = pygame.display.set_mode((0, 0),pygame.FULLSCREEN)
 curImage = 0
 curImRect = pygame.Rect(0, 0, 1920, 1080)
 def main():
